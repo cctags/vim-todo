@@ -1,15 +1,13 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=2623
+# vim-todo
 
-Highlights a basic todo list  
+[sherking@gmail.com](mailto:sherking@gmail.com)
 
-Dates of the form dd/mm/yy are highlighted
+This is a clone from the vim-scripts @ [https://github.com/vim-scripts/TODO-List](https://github.com/vim-scripts/TODO-List).
 
-Major comments are marked with ==> at the begining of the item
-Minor comments are marked with --> at the begining of the item
+This clone adds a new definition of prefix and indentation.
 
-TODO, INPROGRESS  and DONE are all highlighted differently and if comments are required with the status then these can be highlighted by writing in the form:
+Just set the following as the modeline, so that there is no need to change the vimrc.
 
-**DONE this job is done and this is its comment**
-
-for an example look at
-http://www.mth.kcl.ac.uk/~matturry/todo.png
+```vim
+/* vim: set ft=todo fdm=indent fdc=4: */
+```
